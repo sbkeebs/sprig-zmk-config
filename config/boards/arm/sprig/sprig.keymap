@@ -24,10 +24,10 @@
         layer_1 {
             label = "L_1";
             bindings = <
-       &kp ESC   &trans &trans     &trans    &trans       &trans        &trans    &trans    &trans  &kp SEMI
-       &sk LCTRL &trans &trans     &K_VOL_UP &trans       &trans        &trans    &trans    &trans  &kp QUOTE
-       &sk LSHFT &trans &trans     &K_VOL_DN &trans       &trans        &trans    &trans    &trans  &kp GRAVE
-                         &kp LSHFT &kp LGUI  &trans       &kp LSHFT     &kp LBKT  &kp RBKT
+       &kp ESC   &trans &trans     &trans       &trans       &trans        &trans    &trans    &trans  &kp SEMI
+       &sk LCTRL &trans &trans     &kp K_VOL_UP &trans       &trans        &trans    &trans    &trans  &kp QUOTE
+       &sk LSHFT &trans &trans     &kp K_VOL_DN &trans       &trans        &trans    &trans    &trans  &kp GRAVE
+                        &kp LSHFT &kp LGUI     &trans       &kp LSHFT     &kp LBKT  &kp RBKT
             >;
         };
 
@@ -35,9 +35,9 @@
             label = "L_2";
             bindings = <
        &kp N1    &kp N2 &kp N3     &kp N4    &kp N5        &kp N6       &kp N7    &kp N8    &kp N9  &kp N0
-       &kp TAB   &trans &trans     &kp N6    &kp EQUAL     &trans       &kp LEFT  &KP DOWN  &kp UP  &kp RIGHT
+       &kp TAB   &trans &trans     &trans    &trans        &trans       &kp LEFT  &KP DOWN  &kp UP  &kp RIGHT
        &trans    &trans &trans     &trans    &trans        &trans       &trans    &trans    &trans  &trans
-                         &kp LSHFT &kp LGUI  &kp LSHFT     &trans       &trans
+                        &kp LSHFT  &kp LGUI  &kp LSHFT     &trans       &trans    &trans
             >;
         };
 
