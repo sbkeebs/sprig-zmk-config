@@ -17,7 +17,7 @@
        &kp Q     &kp W  &kp F      &kp P    &kp B         &kp J         &kp L     &kp U     &kp Y   &kp BKSP
        &kp A     &kp R  &kp S      &kp T    &kp G         &kp M         &kp N     &kp E     &kp I   &kp O   
        &kp Z     &kp X  &kp C      &kp D    &kp V         &kp K         &kp H     &kp COMMA &kp DOT &kp SLASH     
-                         &kp LCTRL &mo LALT &lt L_1 ENTER &lt L_2 SPACE &kp MINUS &kp EQUAL
+                        &kp LCTRL  &mo LALT &lt L_1 ENTER &lt L_2 SPACE &kp MINUS &kp EQUAL
             >;
         };
 
@@ -25,9 +25,9 @@
             label = "L_1";
             bindings = <
        &kp ESC   &trans &trans     &trans       &trans       &trans        &trans    &trans    &trans  &kp SEMI
-       &sk LCTRL &trans &trans     &kp K_VOL_UP &trans       &trans        &trans    &trans    &trans  &kp QUOTE
+       &sk LCTRL &trans &trans     &kp K_VOL_UP &trans       &trans        &trans    &trans    &trans  &kp SQT
        &sk LSHFT &trans &trans     &kp K_VOL_DN &trans       &trans        &trans    &trans    &trans  &kp GRAVE
-                        &kp LSHFT &kp LGUI     &trans       &kp LSHFT     &kp LBKT  &kp RBKT
+                        &kp LSHFT  &kp LGUI     &trans       &kp LSHFT     &kp LBKT  &kp RBKT
             >;
         };
 
